@@ -53,3 +53,43 @@ a{
     display: flex;
     flex-wrap: wrap; */
 }
+
+
+/* D-1 */
+#hd{
+    padding: 15px;
+}
+#hd h1{
+    padding: 15px 0;
+}
+#gnb{
+    padding-left: 10px;
+}
+#hd a:hover,
+#gnb > li:hover > a{
+    color:orangered;
+}
+#gnb > li:hover ul{
+    max-height: 10rem; 
+    transition: max-height 0.5s ease-in;   
+}
+#gnb > li > a{
+    font-size: 26px;
+    padding: 10px 0;
+    display: block;
+}
+#gnb ul{
+    font-size: 20px;
+    max-height: 0;
+    transition: max-height 0.3s ease-out;
+    overflow: hidden;
+    transition: 0.5s;
+}
+#gnb ul li{
+    
+}
+#gnb ul a{
+    display: block;
+    padding: 5px;
+
+}
